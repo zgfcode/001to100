@@ -1,0 +1,58 @@
+﻿# English Language and Literature
+
+# Computer Science
+
+	## front-end
+
+		### JavaScript
+		### HTML
+		### CSS
+		### Node
+		### React
+		### 
+
+		framework VS library: 
+			(https://www.quora.com/What-is-the-difference-between-a-library-and-framework-in-the-context-of-front-end-development)
+			(https://www.quora.com/What-is-the-difference-between-normal-front-end-frameworks-and-JavaScript-front-end-frameworks)
+			(https://stackoverflow.com/questions/11576018/what-is-the-difference-between-a-javascript-framework-and-a-library)
+
+		JavaScript libraries:(https://en.wikipedia.org/wiki/List_of_JavaScript_libraries)(https://www.javascripting.com/)
+
+		Front-end JavaScript frameworks:(https://github.com/showcases/front-end-javascript-frameworks)
+			* react
+			* vue
+			* angular.js
+			backbone
+			todomvc
+			ember.js
+			polymer
+			framework
+			knockout
+			spine
+			brick
+			nuclear-js
+			dojo
+			matreshka
+
+		Front-end CSS frameworks:(http://usablica.github.io/front-end-frameworks/compare.html)
+			* Bootstrap
+			YUI CSS
+			YAML
+			Semantic UI
+
+		Node.js frameworks:(https://www.devsaran.com/blog/10-best-nodejs-frameworks-developers)
+			Hapi.js
+			Socket.io
+			* Express.js
+			Mojito
+			Meteor
+			Derby
+			Mean.js
+			Sails.js
+			Koa.js
+			Total.js
+
+
+
+
+

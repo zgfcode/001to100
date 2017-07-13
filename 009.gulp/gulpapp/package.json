@@ -1,0 +1,17 @@
+{
+  "name": "gulpapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aten <zgfcode@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-load-plugins": "^1.5.0"
+  }
+}

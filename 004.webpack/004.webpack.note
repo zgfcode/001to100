@@ -1,0 +1,15 @@
+http://webpack.github.io
+1.x : http://webpack.github.io/docs/
+2.x : https://webpack.js.org/
+3.x
+
+
+.hbs: Express.js view engine for handlebars.js
+https://www.npmjs.com/package/hbs
+http://handlebarsjs.com/
+https://expressjs.com/
+
+webpack is a module bundler for modern JavaScript applications.
+modules-->bundles
+Four core Concepts:entry,output,loaders,plugins
+Configuration: webpack.config.js

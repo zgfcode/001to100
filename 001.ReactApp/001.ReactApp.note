@@ -1,0 +1,59 @@
+||20170625||
+
+README.md
+.gitignore
+package.json
+package-lock.json
+-----------------
+node_modules
+public
+	favicon.ico
+	index.html
+	manifest.json
+src
+	App.css
+	App.js
+	App.test.js
+	index.css
+	index.js
+	logo.svg
+	registerServiceWorker.js
+-----------------
+001.reactapp.note
+
+https://discountry.github.io/react/docs/installation.html
+After "create-react-app 001.reactapp"
+
+=========================================================
+
+
+https://code.facebook.com/projects/176988925806765/react/
+https://facebook.github.io/react/
+React is JavaScript library for building user interfaces.
+
+JSX: JavaScript
+
+=========================================================
+
+http://www.react-cn.com/
+React编程思想
+如何构建webapp，怎样才是一个良好的方式，从哪一角度看问题，何样的脉络: 思考过程，如何思考如何解决一个待思考问题是什么的问题
+https://en.wikipedia.org/wiki/Web_application
+web application(web app): client-server software application in which the client(or user interface) runs in a  web browser
+
+
+模型（model）：产品模型，xx模型，xxx模型，。。。
+组件（components）：
+设计-->制造：产品原型-->最终产品
+
+独立组件，使用相同技术创建多个函数或对象
+single responsibility principle
+代码块与实现功能之间的一一对应的关系，重组织代码还是重组织功能
+UI : 数据模型 ：组件
+随着数据模型复杂度的上升，分离组件的必要性·	
+组件间的层级关系
+
+渲染数据模型？
+props：一种从父级传递数据到子级的方式
+
+单向数据流（单项绑定）

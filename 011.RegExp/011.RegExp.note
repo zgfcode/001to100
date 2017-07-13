@@ -1,0 +1,5 @@
+regular expression: are patterns used to match character combinations in strings. In JavaScript, regular expression are also objects.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+http://regexr.com/
+
+regular language(rational language): a formal language that can be expressed using a regular expression.

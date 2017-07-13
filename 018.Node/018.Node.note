@@ -1,0 +1,13 @@
+JavaScript engine: a program or interpreter which executes JavaScript code. most commonly used in Web browsers.
+(https://en.wikipedia.org/wiki/JavaScript_engine)
+	Rhino
+	V8
+	Nitro
+	Chakra
+	Tamarin
+	Carakan
+
+
+Node.js is an JavaScript runtime built on Chrome's V8 JavaScript engine.(event-driven,non-blocking I/O model)
+
+JavaScript--Node--Browser

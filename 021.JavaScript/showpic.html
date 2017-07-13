@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ShowPic</title>
+	<style>
+		li {
+			float: left;
+			padding: 1em;
+			list-style: none;
+		}
+		img {
+			display: block;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+<h1>Snapshots</h1>
+<ul>
+	<li><a href="https://nodejs.org/static/images/logo.svg" onclick='showpic(this); return false;' title="Node">Node</a></li>
+	<li><a href="https://facebook.github.io/react/img/logo.svg" onclick='showpic(this); return false;' title="React">React</a></li>
+	<li><a href="https://cn.vuejs.org/images/logo.png" onclick='showpic(this); return false;' title="Vue">Vue</a></li>
+	<li><a href="https://git-scm.com/images/logo@2x.png" onclick='showpic(this); return false;' title="Git">Git</a></li>
+</ul>
+<img id="placeholder" src="https://www.w3schools.com/images/colorpicker.gif" alt="image gallery"/>
+<p id='description'>Choose an image.</p>
+
+
+<script src='showpic.js'></script>
+</body>
+</html>

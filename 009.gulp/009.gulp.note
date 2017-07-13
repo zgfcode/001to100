@@ -1,0 +1,33 @@
+gulp: a tooltik for automating painful or time-comsuming tasks in your development workflow, so you can stop messing around and build something.
+http://gulpjs.com/
+
+app
+	index.html
+build
+dist(distribution)
+	index.html
+
+
+
+文件拷贝
+文件合并
+文件压缩：no换行，形参最简，
+文件编译：eg：sass/less-->css
+压缩图像
+实时刷新
+
+
+流（stream）：nodejs各种对象实现的抽象接口
+https://nodejs.org/api/stream.html
+
+gulp.task()
+gulp.src()
+gulp.dest()
+gulp.watch()
+
+globs
+https://github.com/isaacs/node-glob
+
+plugins
+gulp-load-plugins
+

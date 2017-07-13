@@ -1,0 +1,15 @@
+https://github.com/new
+Create a new repository:From-001-to-100
+Clone or download-->https://github.com/zgfcode/From-001-to-100.git
+https://git-scm.com/download/
+https://git-scm.com/docs
+git clone https://github.com/zgfcode/From-001-to-100.git
+
+git add .
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#Formatting-and-Whitespace
+git config --list
+git config core.autocrlf true
+git status
+git diff
+git commit -a -m "first commit of 001&002"
+git push
