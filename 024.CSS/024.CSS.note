@@ -1,0 +1,32 @@
+https://leohxj.gitbooks.io/front-end-database/html-and-css-basic/common-use-css-property.html
+
+常用属性
+	Background
+	Border&Outline
+	Text
+	Font
+	Margin
+	Padding
+	List
+	Dimension
+	Positioning
+	Table
+
+盒模型(box model)
+普通流(normal-flow)
+定位方式：
+	display: block/inline-block/inline/table-cell
+	position: relative/absolute/fixed
+浮动相关
+选择器
+	通配符、ID、类、元素
+	后代、子元素、相邻兄弟、群组
+	属性选择器
+	伪类
+	兼容性与优化
+常见布局
+CSS3 New
+
+
+
+

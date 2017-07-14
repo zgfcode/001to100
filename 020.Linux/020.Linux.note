@@ -7,3 +7,7 @@ Terminal
 Shells
 Bash
 
+
+Ubuntu下关闭UTC
+sudo vim /etc/default/rcs
+-->UTC=no
