@@ -9,3 +9,6 @@ Simple,Octopress,Pelican,FarBox,ghost,marboo,Medium,Logdown,prose.io...
 https://hexo.io/
 ->getlost
 
+theme: next
+http://theme-next.iissnan.com/getting-started.html
+

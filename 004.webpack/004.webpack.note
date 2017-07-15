@@ -13,3 +13,7 @@ webpack is a module bundler for modern JavaScript applications.
 modules-->bundles
 Four core Concepts:entry,output,loaders,plugins
 Configuration: webpack.config.js
+
+
+https://doc.webpack-china.org/
+JS应用程序的模块打包器(module bundler)
