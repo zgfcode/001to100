@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>OneDay</title>
+	<style>
+	tag {
+		display: inline-block;
+		margin-left: 10px;
+		margin-top: 10px;
+		padding: 2px;
+		color: blue;
+		border: 1px solid black;
+		cursor: pointer;
+	}
+	.newcolor {
+		background-color: orange;
+	}
+	.choice {
+		margin-left: 100px;
+		margin-top: 20px;
+		height: 200px;
+		width: 1000px;
+		background-color: cyan;
+	}
+	</style>
+</head>
+<body>
+<tag>happy</tag><tag>depression</tag><tag>disappointment</tag><tag>sad</tag><tag>exciting</tag><tag>agitate</tag>
+<tag>melancholy</tag><tag>grieved</tag><tag>sorrow</tag><tag>amazed</tag><tag>fear</tag><tag>lose</tag>
+<tag>angry</tag><tag>envy</tag><tag>miss</tag><tag>admire</tag><tag>sperturbed</tag><tag>inquietude</tag>
+<tag>nervous</tag><tag>love</tag><tag>like</tag><tag>nuisance</tag><tag>detest</tag><tag>worried</tag>
+<tag>pudency</tag><tag>confused</tag><tag>pain</tag><tag>kind</tag><tag>hope</tag><tag>believe</tag><tag>trust</tag>
+
+<div class="choice">
+
+</div>
+
+	
+<script type="text/javascript">
+var tag=document.getElementsByTagName("tag");
+var choice=document.getElementsByTagName("div");
+var str=choice[0].innerHTML;
+for(var i=0;i<tag.length;i++){
+	(function(x){
+		tag[x].onclick=function(){
+			// alert(tag[x].innerHTML);
+			tag[x].className="newcolor";
+			str=str+tag[x].innerHTML+" ";
+			choice[0].innerHTML=str;
+
+
+		}
+	})(i);
+}
+</script>
+</body>
+</html>
