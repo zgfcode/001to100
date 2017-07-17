@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Headings</title>
+<!-- 	<style>
+.basic {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+	border: 1px solid cyan;
+}
+</style> -->
+</head>
+<body>
+<h1>This is a heading level one(h1)</h1>
+<h2>This is a heading level one(h2)</h2>
+<h3>This is a heading level one(h3)</h3>
+<h4>This is a heading level one(h4)</h4>
+<h5>This is a heading level one(h5)</h5>
+<h6>This is a heading level one(h6)</h6>
+
+<!-- <div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div>
+<div class="basic"></div> -->
+
+<script>
+// https://www.w3schools.com/jsref/dom_obj_style.asp
+var color16=["aqua","black","blue","fuchsia","gray","green","lime","maroon","navy","olive","purple","red","silver","teal","white","yellow"];
+for(var m=0;m<16;m++){
+	var div=document.createElement("div");
+	div.innerHTML = color16[m];
+	div.style.height="100px";
+	div.style.width="100px";
+	div.style.float="left";
+	div.style.border="1px solid cyan";
+	div.style.margin="5px";
+	div.style.textAlign="center";
+	div.className="basic";
+	div.style.textShadow="1px 1px 5px white"
+	div.style.backgroundColor=color16[m];
+	document.body.appendChild(div);
+}
+
+
+
+/*var basic=document.getElementsByClassName("basic");
+// console.log(basic);
+var color16=["aqua","black","blue","fuchsia","gray","green","lime","maroon","navy","olive","purple","red","silver","teal","white","yellow"];
+for(var i=0;i<=color16.length-1;i++){
+	// console.log(color16[i]);
+	basic[i].style.backgroundColor=color16[i];
+}*/
+
+</script>
+
+</body>
+</html>
