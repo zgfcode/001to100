@@ -1,0 +1,23 @@
+https://nginx.org/en/docs/
+http://www.nginx.cn/doc/
+http://sysoev.ru/en/
+
+a high performance HTTP and reverse proxy server
+
+功能：
+	HTTP基础功能
+	IMAP/POP3代理服务功能
+	支持的操作系统
+	结构与扩展
+	其他HTTP功能
+	实验特性
+
+
+一款软件所依赖的安装环境，所在的系统环境
+软件的不同版本
+软件的配置，软件的启动与运行，软件的停止，软件的彻底删除
+
+
+
+
+/usr/local/nginx/conf/nginx.conf
