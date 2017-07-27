@@ -7,3 +7,35 @@ Web前端开发流程是怎样的？
 文件，文件的变化，文件的流动
 自有值，动作进入，计算值
 网的构建与牵一发动全身
+
+
+
+
+
+
+https://www.zhihu.com/question/37694275/answer/113609266
+- node , 是javascript语言的环境和平台，
+- npm , bower 是一类，包管理，
+- webpack , browserify , 是一类，javascript预编译模块的方案，
+- requirejs , seajs , 是一类, 基于commonjs，amd，cmd，umd 之类的模块类包加载方案的框架，
+- grunt , gulp , 前端工具，合并、压缩、编译 sass/less，browser 自动载入资源，
+- react , angular , vue , backbone , 是一类，mvc , mvvm , mvp 之类的前端框架，
+- jquery , zepto , prototype , 是一类，前端 DOM , BOM 类库 ，
+- ext , yui , kissy , dojo , 是一类，前端应用组件，
+- underscore , 函数式编程库
+
+
+前端模块化
+前端工程化
+
+
+引入第三方文件带来的问题：
+	引入文件的体积（Less，Sass，根据需求引入部分文件，二次开发，CDN）
+	升级和扩展性
+	兼容性
+	etc.
+
+
+框架在带来便捷性的同时也带来问题：
+
+戴着镣铐的舞蹈

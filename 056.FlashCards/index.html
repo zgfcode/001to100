@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FlashCards</title>
+	<style>
+	/*html,body{
+		height: 100%;
+		width: 100%;
+	}*/
+	#fc{
+		height: 500px;
+		width: 800px;
+		border: 1px solid black;
+		background-color: cyan;
+		margin: auto;
+		margin-top: 5%;
+		text-align: center;
+	}
+	#word{
+		font-size: 30px;
+		font-weight: 900;
+		height: 80px;
+		line-height: 80px;
+	}
+	#phonogram{
+		font-size: 24px;
+		font-weight: 500px;
+		height: 50px;
+		line-height: 50px;
+	}
+	#meaning{
+		font-size: 20px;
+
+	}
+	</style>
+</head>
+<body>
+	<button onclick="nextone()">NextOne</button>
+	<div id="fc">
+	<div id="word">linguistics</div>
+	<hr>
+	<div id="phonogram">[ling-gwis-tiks] </div>
+	<hr>
+	<div id="meaning">boun, the science of language, including phonetics, phonology, morphology, syntax, semantics, pragmatics, and historical linguistics.</div>
+	</div>
+
+
+
+<script>
+/*var flashCard=new Array();
+var wordText=document.getElementById("word").innerText;
+var phonogramText=document.getElementById("phonogram").innerText;
+var meaningText=document.getElementById("meaning").innerText;
+flashCard[0]=wordText;
+flashCard[1]=phonogramText;
+flashCard[2]=meaningText;*/
+anotherArr=["1","2","3"];
+function nextone(){
+	document.getElementById("word").innerText=anotherArr[0];
+	document.getElementById("phonogram").innerText=anotherArr[1];
+	document.getElementById("meaning").innerText=anotherArr[2];
+	
+}
+</script>
+</body>
+</html>
